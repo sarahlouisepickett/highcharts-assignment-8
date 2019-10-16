@@ -1,0 +1,9 @@
+h1, h2 {
+    font-family: 'Merriweather','Palatino', serif;
+}
+body {
+    font-family: 'Open Sans','Verdana', sans-serif;
+    background: #d2f4ff; /* keep */
+    color: #333; /* keep */
+    margin: 1.5; /* keep */
+}
