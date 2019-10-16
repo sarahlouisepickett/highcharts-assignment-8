@@ -13,7 +13,8 @@ body {
 }
 
 /*  the #container div (below) holds ONE chart  */
-#container {
+#container {width: 60%;
+height: 500px;
 }
 
 p {
