@@ -30,7 +30,7 @@ Highcharts.chart('container', {
 
     series: [{
         name: 'Total Obligations',
-        data: [49, 50, 46, 43, 49, 50, 59, ]
+        data: [49, 50, 46, 43, 49, 50, 59, 49 ]
     }, ],
 
     responsive: {
