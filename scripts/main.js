@@ -1,7 +1,7 @@
 Highcharts.chart('container', {
 
     title: {
-        text: 'US AID Spending, 2010 - 2016'
+        text: 'U.S Aid Spending, 2010 - 2017'
     },
 
     subtitle: {
@@ -30,7 +30,7 @@ Highcharts.chart('container', {
 
     series: [{
         name: 'Total Obligations',
-        data: [49, 50, 46, 43, 49, 50, 59, 49 ]
+        data: [49, 50, 46, 43, 49, 50, 59, 49]
     }, ],
 
     responsive: {

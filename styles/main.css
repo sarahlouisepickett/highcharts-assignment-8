@@ -1,47 +1,45 @@
-html {font-size: 100%;
-      box-sizing: border-box;
-}
-
-* {
-  box-sizing: inherit;
-}
-
-
-
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 900px;
-    font-family: 'Open Sans','Verdana', sans-serif;
-    background: #d2f4ff;
-    color: #333;
-    margin: 1.5em;
-    text-align: left;
+   max-width: 800px;
+   font-family: 'Open Sans','Verdana', sans-serif;
+   background: #d2f4ff;
+   color: #333;
+   margin: 0;
+   text-align: left;
+   padding: 1rem;
 }
 
 h1, h2 {
-    font-family: 'Merriweather','Palatino', serif;
+   font-family: 'Merriweather','Palatino', serif;
 }
 
 .highcharts-tooltip h3 {
-    margin: 0.3em 0;
+   margin: 0.3em 0;
 }
 #container {
-	min-width: 320px;
-	max-width: 800px;
-	height: 400px;
-	margin: 0 auto;
+ min-width: 310px;
+ max-width: 800px;
+ height: 400px;
+ margin: 0 auto;
 }
 
 #container2 {
-	min-width: 320px;
-	max-width: 800px;
-	margin: 1 auto;
+ min-width: 320px;
+ max-width: 800px;
+ height: 400px;
+ margin: 0 auto;
+ padding-bottom: 3.5rem;
+
 }
 
-@media screen and (max-width: 650px) {
-    #container {
-      display: flex;
-    }
+#container, #container2 {
+  max-width: 100%;
 }
+
+a {
+  color: #51330B;
+}
+a:hover {
+  color: #694311;
+}
+
+@media screen and (max-width: 650px)
