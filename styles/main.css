@@ -5,5 +5,24 @@ body {
     font-family: 'Open Sans','Verdana', sans-serif;
     background: #d2f4ff; /* keep */
     color: #333; /* keep */
-    margin: 1.5; /* keep */
+    margin: 1.5em; /* keep */
+    text-align: left;
+    padding: 4rem;
+}
+
+.highcharts-tooltip h3 {
+    margin: 0.3em 0;
+}
+#container {
+	min-width: 310px;
+	max-width: 800px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#container2 {
+	min-width: 320px;
+	max-width: 800px;
+	margin: 0 auto;
+  padding: 4rem;
 }
