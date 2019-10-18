@@ -4,7 +4,6 @@ body {
    background: #d2f4ff;
    color: #333;
    margin: 0;
-   text-align: left;
    padding: 1rem;
 }
 
@@ -23,9 +22,9 @@ h1, h2 {
 }
 
 #container2 {
-height: 800px;
-min-width: 310px;
-max-width: 650px;
+
+min-width: 320px;
+max-width: 800px;
 margin: 0 auto
 /*
 min-width: 320px;
@@ -47,11 +46,4 @@ a:hover {
   color: #694311;
 }
 
-@media screen and (max-width: 650px) {
-  container2{
-   min-width: 310px;
-   max-width: 800px;
-   height: 400px;
-   margin: 0 auto;
-  }
-}
+/* no media query because phone size looks fine without one */

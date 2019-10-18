@@ -53,7 +53,7 @@ Highcharts.chart('container', {
 Highcharts.chart('container2', {
     chart: {
         type: 'packedbubble',
-        height: '100%'
+        height: '80%'
     },
     title: {
         text: 'Sector Foreign Aid Spending (2017)'
@@ -64,8 +64,8 @@ Highcharts.chart('container2', {
     },
     plotOptions: {
         packedbubble: {
-            minSize: '30%',
-            maxSize: '120%',
+            minSize: '10%',
+            maxSize: '90%',
             zMin: 0,
             zMax: 20,
             layoutAlgorithm: {
